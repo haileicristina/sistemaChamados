@@ -1,0 +1,74 @@
+.container-customers{
+    display: flex;
+    background: #111;
+    border-radius: 5px;
+    padding: .8em;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 200px;
+}
+.form-customers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-nomeFantasia, .label-cnpj, .label-endereco{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   color: #fff;
+   padding: 10px;
+}
+texto-label{
+    padding-rigth: 20px;
+}
+
+.dados-customers{
+   width: 300px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 40px;
+    border: 2px solid #0C1D9E;
+    border-radius: 7px;
+    background: #111;    
+    position: relative;
+    font-size: 16px;
+    color:#fff;
+}
+.dados-customers:focus{
+    border: 2px solid #EBBE23;
+}
+
+.nomeFantasia{
+    padding-left: 100px;
+}
+
+.cnpj{
+    padding-left: 100px;
+    margin-left: 70px;
+}
+
+.endereco{
+    padding-left: 45px;
+    margin-left: 40px;
+}
+
+.bt-customers{
+    color: #fff;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background: #3D3C42;
+    font: 16px Roboto;
+    font-weight: 700;
+    width: 400px;
+}
+.bt-customers:hover{
+    border: 2px solid #EBBE23;
+    background: #EBBE23;
+    color: #0C1D9E;
+}

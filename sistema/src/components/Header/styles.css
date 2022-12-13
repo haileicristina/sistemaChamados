@@ -1,0 +1,191 @@
+
+
+
+.sidebar-show{
+    margin: 0;
+    padding: 0;
+    background-color:#111;
+    width: 70px;
+    position:fixed;
+    height: 100vh;
+    overflow: hidden;
+   display: block;
+}
+.sidebar-show:hover{
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-itens: center;
+    justify-content: center;
+    padding-left: 20px;
+   
+}
+.avatar{   
+    background-color:  #0C1D9E;   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;  
+       
+}
+
+.avatar:hover{   
+    background-color:  #0C1D9E;   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+    opacity: 100%;   
+    
+}
+.avatar img{
+    overflow:hidden;
+    width: 100%; 
+    opacity: 0;  
+    object-fit: cover;
+}
+.avatar img:hover{
+    width: 100%;   
+    overflow: hidden;
+    opacity: 100%;
+     
+}
+.nome{
+    color: #fff;
+    z-index: 1;
+    opacity: 100%;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+span{
+    color: #fff;  
+    opacity: 0; 
+    
+}
+span:hover{   
+    text-decoration: none;
+    color: #fff;  
+    opacity: 100%; 
+    padding: 10px; 
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-top: 100px;
+      
+}
+.bt-icone1{    
+    margin-bottom: 100px; 
+}
+.bt-icone2{   
+    margin-bottom: 100px; 
+}
+.bt-icone3{
+    margin-bottom: 100px; 
+}
+.bt-icone1:hover{
+    background-color:  #0C1D9E; 
+    padding-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bt-icone2:hover{
+    background-color:  #0C1D9E; 
+    padding-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bt-icone3:hover{
+    background-color:  #0C1D9E;
+    padding-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-profile{
+    margin-left: 55px;
+}
+.container-profile{
+    margin-left: 150px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px){
+    .sidebar-show{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        margin: 0;
+        padding:0;
+    }
+    .sidebar-show:hover{
+        width: 100%;
+    }
+    .icones{        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding-top:20px;
+        
+    }
+    .bt-icone1{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+    .bt-icone2{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+    .bt-icone3{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .avatar{
+        display: none;
+    }
+    .avatar img{
+        display: none;
+    }
+    .nome{
+        display: none;
+    }
+    span{
+        margin: 0;
+        padding:0;
+        opacity: 100%;
+    }
+    span:hover{        
+        margin:0;
+        padding: 5px;
+    }
+    .icon{
+        margin: 0;
+        padding:0;
+    }
+   
+    .content-profile{
+        margin-left: 0;
+    }
+    
+}

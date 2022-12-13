@@ -1,0 +1,92 @@
+.container-profile{
+    display: flex;
+    background-color: #111;
+    border-radius: 5px;
+    padding: .8em;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.form-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-profile img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.label-nome, .label-email{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   color: #fff;
+}
+texto-label{
+    padding-rigth: 20px;
+}
+.label-avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3D3C42;
+    color: #fff;
+    background-color:  #0C1D9E;   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.label-avatar input{
+    display: none;
+}
+.label-avatar span{
+    z-index: 99;
+    position: absolute;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.label-avatar span:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+.dados{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 15px;
+    height: 40px;
+    border: 2px solid #0C1D9E;
+    border-radius: 7px;
+    background: #111;    
+    position: relative;
+    font-size: 16px;
+    color:#fff;
+}
+.dados:focus{
+    border: 2px solid #EBBE23;
+}
+.bt-profile{
+    color: #fff;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background: #3D3C42;
+    font: 16px Roboto;
+    font-weight: 700;
+    width: 300px;
+}
+.bt-profile:hover{
+    border: 2px solid #EBBE23;
+    background: #EBBE23;
+    color: #0C1D9E;
+}
+.btn-sair{
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+

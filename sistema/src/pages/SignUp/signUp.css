@@ -1,0 +1,124 @@
+.container-center-cadastro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+
+
+.login-cadastro{
+    background-color: rgb(32, 32, 36);
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    padding-top: 20px;
+}
+.logo-area-cadastro{
+    display: flex;
+    justify-content:center;
+    align-itens: center;
+    background: #0C1D9E;
+    width: 100%;
+    height: 70%;
+    
+   }
+.logo-area-cadastro img{
+    padding: 10px 5px 10px 5px;
+    width: 65px;
+    height: 50px;
+
+}
+.logo-area-cadastro h2{
+    font-size: 25px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+form{
+    margin-top: 1.5rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+form h1{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color:  #0C1D9E;
+}
+.identify{
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 1;
+     color:#3D3C42;
+     position:absolute;
+ }
+.envelope-cadastro{
+   margin-top: 70px;
+   margin-left: 10px;
+   z-index: 1;
+    color:#3D3C42;
+    position:absolute;
+}
+
+.cadeado-cadastro{
+    margin-top: 130px;
+    margin-left: 10px;
+    z-index: 1;
+    color:#3D3C42;
+    position:absolute;     
+ }
+
+ .eye-cadastro{
+    margin-top: 70px;
+    margin-left: 500px;
+    z-index: 1;
+     color:#0C1D9E;
+     position:absolute;
+ }
+.login-cadastro input{
+    margin-bottom: 20px;
+    padding-left: 35px;
+    height: 40px;
+    border: 2px solid #0C1D9E;
+    color: ;
+    border-radius: 7px;
+    background: #111;    
+    position: relative;
+    font-size: 16px;
+    color:#fff;
+}
+.login-cadastro input:focus{
+    color: #fff;
+    border: 2px solid #EBBE23;
+}
+
+.button-cadastro{
+    color: #fff;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background: #3D3C42;
+    font: 16px Roboto;
+    font-weight: 700;
+}
+.button-cadastro:hover{
+    background: #EBBE23;
+    color:#0C1D9E;
+}
+.cadastro{
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.cadastro strong{
+    color: #0C1D9E;
+    font-weight: bold;
+}
+

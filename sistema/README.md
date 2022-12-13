@@ -1,0 +1,21 @@
+** Editar configurações de acesso ao storage do firebase**
+
+ - Altere as regras:
+
+rules_version = '2';
+
+service firebase.storage {
+
+  match /b/{bucket}/o {
+
+    match /{allPaths=**} {
+
+      allow write: if request.auth != null;
+
+      allow read;
+
+    }
+
+  }
+
+}
